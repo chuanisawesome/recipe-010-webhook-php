@@ -11,7 +11,7 @@ class DS_recipe_lib {
 	public $ds_account_id;
 	public $ds_base_url;
 	public $ds_auth_header;
-	public $ds_api_url = "https://demo.docusign.net/restapi/v2.1"; // change for production
+	public $ds_api_url = "https://demo.docusign.net/restapi"; // change for production
 	public $my_url; // url of the overall script
 	public $temp_email_server = "mailinator.com"; // Used for throw-away email addresses
 	public $email_count = 2; // Used to make email addresses unique.
